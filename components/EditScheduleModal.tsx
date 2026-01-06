@@ -15,7 +15,7 @@ const EditScheduleModal: React.FC<EditScheduleModalProps> = ({ isOpen, onClose, 
 
   if (!isOpen) return null;
 
-  const handleUpdate = (index: number, field: string, value: string | string[]) => {
+  const handleUpdate = (index: number, field: string, value: any) => {
     const newItems = [...items];
     newItems[index] = { ...newItems[index], [field]: value };
     setItems(newItems);
