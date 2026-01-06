@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   description: "Daily protocol tracker for Vegetarian Transformation",
   manifest: "/manifest.json",
   icons: {
-    icon: "/Icon.png",
+    icon: "/android-chrome-192x192.png",
     apple: "/apple-touch-icon.png",
   },
   appleWebApp: {
